@@ -7,9 +7,9 @@
 请 `fork` 当前仓库再进去以下操作。
 
 ```bash
-git clone https://github.com/****
+git clone https://github.com/**/interview-project
 
-# 通过 pnpm 安装依赖
+# !!! 要求通过 pnpm 安装依赖
 pnpm install
 
 # 开始开发
@@ -19,7 +19,6 @@ pnpm dev
 ## 已集成功能
 
 * vite
-
 * element-plus
 * unocss
 * vue-router
@@ -34,15 +33,13 @@ pnpm dev
 
 ### 要求
 
-* 表格显示、分页、搜索功能。
+* 参照图片当原型，完成表格显示、分页、搜索、新增、编辑、删除功能。
 
-* 新增、编辑、删除功能。
+* 接口定义位于 `src/api/post.ts`， 请完善类型定义。
 
 * 完善的 `TS` 类型定义、合理的组件拆分、语义化的代码。
 
 * 接口定义位于 `src/api/post.ts`， 并完善类型定义（ 调用接口已由 `msw` mock）。
-
-
 
 ## 习题二
 
